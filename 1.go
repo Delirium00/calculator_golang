@@ -145,7 +145,7 @@ func main() {
 		case "20":
 			fmt.Println("XX")
 		default:
-			fmt.Println("Ошибка!")
+			panic("Паника!")
 		}
 	} else {
 		fmt.Println(C)
